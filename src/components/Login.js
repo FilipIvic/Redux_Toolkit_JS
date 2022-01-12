@@ -12,6 +12,7 @@ export const Login = () => {
 
     return (
         <div>
+            {console.log("Hey")}
             <p>Login component</p>
             <input type="text" placeholder="Enter your name" value={name} onChange={(event)=>handleNameChange(event)}></input>
             <button onClick={() => dispatch(changeName(name))}>Login</button>
